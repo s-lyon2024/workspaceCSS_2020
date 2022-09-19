@@ -1,3 +1,68 @@
-p{
-    color:crimson;
+/* 
+CSS garden design file by Sophie Lyon
+
+---------------
+01 color
+02 layout
+03 font
+04 other decoration
+05 media 
+*/
+
+/* 01 Color */
+
+html{
+    background-color: hsla(180, 50%, 88%, .3);
+    padding: 2%;
+}
+
+body{
+    background-color: hsl(210, 100%, 88%, .9);
+    padding: 2%;
+}
+
+div.preamble,div.requirements, div.benefits{
+    background-color: white;
+    color: hsl(270, 100%, 12%);
+}
+
+header h1{
+    background-color: hsla(330, 100%, 38%, 0.3);
+}
+
+footer{
+    background-color: hsla(330, 100%, 38%, 0.3);
+}
+
+div.participation{
+    background-color: hsla(150, 100%, 63%, 0.8);
+}
+
+aside.sidebar{
+    background-color: hsla(180, 25%, 25%, 0.4);
+}
+
+/* 02 Layout */
+div,article,section,header,nav,figure,li{
+    position: relative;
+}
+
+header h1{
+    position: relative;
+    left: 30px;
+    width: 180px;
+}
+
+aside.sidebar{
+    position: absolute; 
+    top: 3%;
+    right:0%;
+    width: 25%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 15%;
+    left: 30%;
 }
