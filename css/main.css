@@ -55,9 +55,9 @@ header h1{
 
 aside.sidebar{
     position: absolute; 
-    top: 3%;
+    top: 1px;
     right:0%;
-    width: 25%;
+    width: 43%;
 }
 
 footer{
@@ -65,4 +65,76 @@ footer{
     bottom: 0px;
     width: 15%;
     left: 30%;
+}
+
+section.intro{
+    width: 55%;
+}
+
+div.explanation{
+    float: left;
+    width: 40%;
+    padding: 5%;
+    bottom: 20px;
+}
+
+div.participation{
+    margin-left: 50%;
+    width: 45%;
+    padding: 3%;
+}
+
+div.benefits{
+    float: left;
+    width: 39%;
+    padding:3%;
+    bottom: 30px;
+}
+
+div.requirements{
+    margin-left: 50%;
+    width: 45%;
+    padding: 1%;
+    top: 50px;
+}
+
+/* font */
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* local font */
+
+@font-face {
+    font-family: 'specialfont';
+    src: url('../fonts/chunkfive.woff');
+}
+
+header h1{
+    font-family: 'specialfont';
+    text-indent: 2px;
+    background-image: url('../img/zengarden.gif');
+}
+
+a{
+    text-decoration: none;
+    font: bold;
+    color: hsl(150, 91%, 30%);
+}
+
+p, li{
+    font-family: 'Goudy Old Style',serif;
+}
+
+header h2{
+    font-family: 'specialfont';
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+
 }
